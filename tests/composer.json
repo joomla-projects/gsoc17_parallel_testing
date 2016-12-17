@@ -12,12 +12,17 @@
     },
     "require-dev": {
         "codeception/codeception": "^2.2",
-        "joomla-projects/joomla-browser": "v3.6.0.1",
-        "composition/robo": "~1",
-        "joomla-projects/robo": "~0",
+        "joomla-projects/joomla-browser": "~v3.6",
         "joomla-projects/selenium-server-standalone": "v2.53.1",
         "fzaninotto/faker": "^1.6",
         "joomla-projects/jorobo": "~0.6",
         "Behat/Gherkin": "^4.4.1"
+    },
+  "autoload": {
+    "psr-4": {
+      "Joomla\\Testing\\" : "../../joomla-testing/src/",
+      "Joomla\\Testing\\Robo\\" : "../../joomla-testing-robo/src/",
+      "Joomla\\Jorobo\\" : "../../jorobo/src/"
     }
+  }
 }

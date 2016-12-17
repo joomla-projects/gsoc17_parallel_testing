@@ -1,9 +1,9 @@
 actor: Tester
 paths:
-    tests: tests
-    log: tests/_output
-    data: tests/_data
-    helpers: tests/_support
+    tests: .
+    log: ./_output
+    data: ./_data
+    helpers: ./_support
 settings:
     bootstrap: _bootstrap.php
     colors: true
