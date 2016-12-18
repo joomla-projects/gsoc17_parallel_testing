@@ -42,32 +42,22 @@ class RoboFile extends RoboFileBase
 	use Joomla\Jorobo\Tasks\loadTasks;
 
 	/**
-	 * Run the whole test script for this extension
+	 * Function for actual execution of the test suites of this extension
 	 *
 	 * @param   array  $opts  Array of configuration options:
-	 *                        - 'use-htaccess': renames and enable embedded Joomla .htaccess file
 	 *                        - 'env': set a specific environment to get configuration from
-	 *                        - 'append-certificates': path with extra certificates to append
 	 *                        - 'debug': executes codeception tasks with extended debug
 	 *
 	 * @return void
 	 *
 	 * @since   3.7.0
 	 */
-	public function runTests(
+	public function runTestSuites(
 		$opts = [
-		'use-htaccess' => false,
 		'env' => 'desktop',
-		'append-certificates' => '',
 		'debug' => false
 		])
 	{
-		// Removes install suite and test from the preparation script, to execute it with the full script
-		$opts['install-suite'] = '';
-		$opts['install-test'] = '';
-
-		$this->runTestPreparation($opts);
-
 		$this->runCodeceptionSuite(
 			'acceptance',
 			'install',
@@ -86,8 +76,6 @@ class RoboFile extends RoboFileBase
 			$opts['debug'],
 			$opts['env']
 		);
-
-		$this->killSelenium();
 	}
 
 	/**
@@ -113,7 +101,7 @@ class RoboFile extends RoboFileBase
 				->run();
 		}
 
-		$tmpFolder = $this->configuration->getCmsPath() . '/tmp';
+		$tmpFolder = JPATH_TESTING_BASE . '/_data';
 		$this->_copy('../dist/pkg-weblinks-current.zip', $tmpFolder . "/pkg-weblinks-current.zip");
 		$this->say('Extension package released in ' . $tmpFolder);
 	}

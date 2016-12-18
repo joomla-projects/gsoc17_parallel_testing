@@ -42,7 +42,7 @@ phing-latest.phar
 # composer
 composer.phar
 vendor/*
-
+tests/vendor/*
 
 # Test related files
 /tests/acceptance.suite.yml
@@ -60,4 +60,5 @@ vendor/*
 # Package building related
 /dist
 jorobo.ini
+/tests/_data/*.zip
 
