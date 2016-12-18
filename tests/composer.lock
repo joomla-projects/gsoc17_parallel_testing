@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "37134f92721e5ff2b035e32c205036c2",
-    "content-hash": "4b3326e2db765e935fafd32f93882775",
+    "hash": "050a1b841a071e972f7e915b4814c03a",
+    "content-hash": "a603e0cf7f96af4d3c536ea5aad20d89",
     "packages": [],
     "packages-dev": [
         {
@@ -66,58 +66,6 @@
                 "parser"
             ],
             "time": "2016-10-30 11:50:56"
-        },
-        {
-            "name": "cloudinary/cloudinary_php",
-            "version": "1.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cloudinary/cloudinary_php.git",
-                "reference": "327f2db5767ceb8a19d51785e1b60e86674a6a2e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/327f2db5767ceb8a19d51785e1b60e86674a6a2e",
-                "reference": "327f2db5767ceb8a19d51785e1b60e86674a6a2e",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "4.7.*"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src"
-                ],
-                "files": [
-                    "src/Helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cloudinary",
-                    "homepage": "https://github.com/cloudinary/cloudinary_php/graphs/contributors"
-                }
-            ],
-            "description": "Cloudinary PHP SDK",
-            "homepage": "https://github.com/cloudinary/cloudinary_php",
-            "keywords": [
-                "cdn",
-                "cloud",
-                "cloudinary",
-                "image management",
-                "sdk"
-            ],
-            "time": "2016-10-27 22:02:47"
         },
         {
             "name": "codeception/codeception",
@@ -779,99 +727,6 @@
                 "standards"
             ],
             "time": "2015-11-14 02:57:58"
-        },
-        {
-            "name": "guzzle/guzzle",
-            "version": "v3.8.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
-                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "php": ">=5.3.3",
-                "symfony/event-dispatcher": ">=2.1"
-            },
-            "replace": {
-                "guzzle/batch": "self.version",
-                "guzzle/cache": "self.version",
-                "guzzle/common": "self.version",
-                "guzzle/http": "self.version",
-                "guzzle/inflection": "self.version",
-                "guzzle/iterator": "self.version",
-                "guzzle/log": "self.version",
-                "guzzle/parser": "self.version",
-                "guzzle/plugin": "self.version",
-                "guzzle/plugin-async": "self.version",
-                "guzzle/plugin-backoff": "self.version",
-                "guzzle/plugin-cache": "self.version",
-                "guzzle/plugin-cookie": "self.version",
-                "guzzle/plugin-curlauth": "self.version",
-                "guzzle/plugin-error-response": "self.version",
-                "guzzle/plugin-history": "self.version",
-                "guzzle/plugin-log": "self.version",
-                "guzzle/plugin-md5": "self.version",
-                "guzzle/plugin-mock": "self.version",
-                "guzzle/plugin-oauth": "self.version",
-                "guzzle/service": "self.version",
-                "guzzle/stream": "self.version"
-            },
-            "require-dev": {
-                "doctrine/cache": "*",
-                "monolog/monolog": "1.*",
-                "phpunit/phpunit": "3.7.*",
-                "psr/log": "1.0.*",
-                "symfony/class-loader": "*",
-                "zendframework/zend-cache": "<2.3",
-                "zendframework/zend-log": "<2.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.8-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Guzzle": "src/",
-                    "Guzzle\\Tests": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                },
-                {
-                    "name": "Guzzle Community",
-                    "homepage": "https://github.com/guzzle/guzzle/contributors"
-                }
-            ],
-            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
-            "homepage": "http://guzzlephp.org/",
-            "keywords": [
-                "client",
-                "curl",
-                "framework",
-                "http",
-                "http client",
-                "rest",
-                "web service"
-            ],
-            "abandoned": "guzzlehttp/guzzle",
-            "time": "2014-01-28 22:29:15"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1801,106 +1656,6 @@
             "time": "2016-12-17 16:15:13"
         },
         {
-            "name": "joomla-projects/joomla-testing",
-            "version": "dev-container-test",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/joomla-projects/joomla-testing.git",
-                "reference": "e485b79a1723af480facdc47167bb7556af8594c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/joomla-projects/joomla-testing/zipball/e485b79a1723af480facdc47167bb7556af8594c",
-                "reference": "e485b79a1723af480facdc47167bb7556af8594c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "consolidation/robo": "~1",
-                "joomla-projects/joomla-testing-robo": "~1",
-                "symfony/process": "~3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Joomla\\Testing\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Tito Alvarez",
-                    "email": "tito.alvarez@community.joomla.org"
-                }
-            ],
-            "description": "Joomla automated testing scripts with container capabilities",
-            "keywords": [
-                "containers",
-                "docker",
-                "qa",
-                "robo",
-                "task",
-                "tests"
-            ],
-            "time": "2016-12-17 16:18:26"
-        },
-        {
-            "name": "joomla-projects/joomla-testing-robo",
-            "version": "dev-container-test",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/joomla-projects/joomla-testing-robo.git",
-                "reference": "f3c134c9385a42191dcb4f31dbff6e9873a27bd6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/joomla-projects/joomla-testing-robo/zipball/f3c134c9385a42191dcb4f31dbff6e9873a27bd6",
-                "reference": "f3c134c9385a42191dcb4f31dbff6e9873a27bd6",
-                "shasum": ""
-            },
-            "require": {
-                "cloudinary/cloudinary_php": "~1",
-                "consolidation/robo": "~1",
-                "greencape/coding-standards": "~1",
-                "joomla-projects/joomla-testing": "dev-container-test",
-                "knplabs/github-api": "~1",
-                "php": ">=5.4.0",
-                "squizlabs/php_codesniffer": "~2"
-            },
-            "replace": {
-                "joomla-projects/robo": "< 1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Joomla\\Testing\\Robo\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Tito Alvarez",
-                    "email": "tito.alvarez@community.joomla.org"
-                }
-            ],
-            "description": "Joomla automated testing swiss knife",
-            "keywords": [
-                "qa",
-                "robo",
-                "task",
-                "tests"
-            ],
-            "time": "2016-12-18 04:16:34"
-        },
-        {
             "name": "joomla-projects/jorobo",
             "version": "dev-container-test",
             "source": {
@@ -2326,68 +2081,6 @@
                 "utilities"
             ],
             "time": "2016-12-10 17:09:33"
-        },
-        {
-            "name": "knplabs/github-api",
-            "version": "1.7.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/KnpLabs/php-github-api.git",
-                "reference": "98d0bcd2c4c96a40ded9081f8f6289907f73823c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/php-github-api/zipball/98d0bcd2c4c96a40ded9081f8f6289907f73823c",
-                "reference": "98d0bcd2c4c96a40ded9081f8f6289907f73823c",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "guzzle/guzzle": "~3.7",
-                "php": ">=5.3.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0",
-                "sllh/php-cs-fixer-styleci-bridge": "~1.3"
-            },
-            "suggest": {
-                "knplabs/gaufrette": "Needed for optional Gaufrette cache"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.8.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Github\\": "lib/Github/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Thibault Duplessis",
-                    "email": "thibault.duplessis@gmail.com",
-                    "homepage": "http://ornicar.github.com"
-                },
-                {
-                    "name": "KnpLabs Team",
-                    "homepage": "http://knplabs.com"
-                }
-            ],
-            "description": "GitHub API v3 client",
-            "homepage": "https://github.com/KnpLabs/php-github-api",
-            "keywords": [
-                "api",
-                "gh",
-                "gist",
-                "github"
-            ],
-            "time": "2016-07-26 08:49:38"
         },
         {
             "name": "league/container",
@@ -4916,7 +4609,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "joomla-projects/jorobo": 20,
-        "joomla-projects/joomla-testing-robo": 20,
         "joomla-projects/joomla-browser": 20
     },
     "prefer-stable": true,

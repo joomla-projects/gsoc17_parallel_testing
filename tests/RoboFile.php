@@ -36,7 +36,7 @@ use Joomla\Testing\Robo\RoboFile\RoboFileBase;
  *
  * @since       3.7.0
  */
-class RoboFile extends RoboFileBase
+final class RoboFile extends RoboFileBase
 {
 	// Load tasks from composer, see composer.json
 	use Joomla\Jorobo\Tasks\loadTasks;
