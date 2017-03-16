@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<extension type="package" version="3.0" method="upgrade">
+<extension type="package" version="3.6" method="upgrade">
 	<name>pkg_weblinks</name>
 	<packagename>weblinks</packagename>
 	<creationDate>##DATE##</creationDate>
@@ -13,6 +13,7 @@
 	<version>##VERSION##</version>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>PKG_WEBLINKS_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
 	<files>
 		<!-- The id for each extension is the element stored in the DB -->
 		<file type="component" id="com_weblinks">com_weblinks.zip</file>
