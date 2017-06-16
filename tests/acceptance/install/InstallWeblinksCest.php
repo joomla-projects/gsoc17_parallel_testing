@@ -11,21 +11,20 @@
 
 class InstallWeblinksCest
 {
-	public function installJoomla(\AcceptanceTester $I)
-	{
-		$I->am('Administrator');
-		$I->installJoomlaRemovingInstallationFolder();
-		$I->doAdministratorLogin();
-		$I->disableStatistics();
-		$I->setErrorReportingToDevelopment();
-	}
+//	public function installJoomla(\AcceptanceTester $I)
+//	{
+//		$I->am('Administrator');
+//		$I->installJoomlaRemovingInstallationFolder();
+//		$I->doAdministratorLogin();
+//		$I->disableStatistics();
+//		$I->setErrorReportingToDevelopment();
+//	}
 
-	/**
-	 * @depends installJoomla
-	 */
 	public function installWeblinks(\AcceptanceTester $I)
 	{
 		$I->doAdministratorLogin();
+		$I->disableStatistics();
+		$I->setErrorReportingToDevelopment();
 		$I->comment('get Weblinks repository folder from acceptance.suite.yml (see _support/AcceptanceHelper.php)');
 		$I->installExtensionFromFileUpload('pkg-weblinks-current.zip', 'Package');
 		$I->doAdministratorLogout();

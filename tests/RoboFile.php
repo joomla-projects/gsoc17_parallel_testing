@@ -78,6 +78,22 @@ final class RoboFile extends RoboFileBase
 		);
 	}
 
+	public function runTestSingle(
+		$opts = [
+			'env' => 'desktop',
+			'debug' => false,
+			'suite' => 'acceptance',
+			'test' => 'install/InstallWeblinksCest.php/installWeblinks'
+		])
+	{
+		$this->runCodeceptionSuite(
+			$opts['suite'],
+			$opts['test'],
+			$opts['debug'],
+			$opts['env']
+		);
+	}
+
 	/**
 	 * Executes the extension packager for this extension
 	 *
