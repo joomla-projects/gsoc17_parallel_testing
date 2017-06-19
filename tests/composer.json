@@ -7,6 +7,20 @@
             "php": "5.5.33"
         }
     },
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "isacandrei/joomla-testing-robo",
+                "version":"1",
+                "source": {
+                    "url": "https://github.com/isacandrei/joomla-testing-robo.git",
+                    "type": "git",
+                    "reference":"container-test"
+                }
+            }
+        }
+    ],
     "require"    : {
         "php": ">=5.3.10"
     },
@@ -16,7 +30,7 @@
         "fzaninotto/faker"                           : "^1.6",
         "Behat/Gherkin"                              : "^4.4.1",
         "joomla-projects/jorobo"                     : "dev-container-test",
-        "joomla-projects/joomla-testing-robo"        : "dev-container-test",
+        "isacandrei/joomla-testing-robo"             : "1",
         "joomla-projects/joomla-browser"             : "dev-container-test"
     },
     "minimum-stability"                              : "dev",
