@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0bf510803e2f5296d6cbb6c5e56261f2",
+    "content-hash": "a603e0cf7f96af4d3c536ea5aad20d89",
     "packages": [],
     "packages-dev": [
         {
@@ -960,16 +960,6 @@
             "time": "2014-11-20T16:49:30+00:00"
         },
         {
-            "name": "isacandrei/joomla-testing-robo",
-            "version": "1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/isacandrei/joomla-testing-robo.git",
-                "reference": "container-test"
-            },
-            "type": "library"
-        },
-        {
             "name": "joomla-projects/joomla-browser",
             "version": "dev-container-test",
             "source": {
@@ -1018,7 +1008,7 @@
                 "acceptance testing",
                 "joomla"
             ],
-            "time": "2017-03-07 20:51:31"
+            "time": "2017-03-07T20:51:31+00:00"
         },
         {
             "name": "joomla-projects/jorobo",
@@ -1068,7 +1058,7 @@
                 }
             ],
             "description": "Tools and Tasks based on Robo.li for Joomla Extension Development and Releases",
-            "time": "2017-03-16 23:08:51"
+            "time": "2017-03-16T23:08:51+00:00"
         },
         {
             "name": "joomla-projects/selenium-server-standalone",
