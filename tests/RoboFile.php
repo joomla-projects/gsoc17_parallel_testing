@@ -78,32 +78,6 @@ final class RoboFile extends RoboFileBase
 		);
 	}
 
-	public function runTestSingle(
-		$opts = [
-			'env' => 'desktop',
-			'debug' => false,
-			'suite' => 'acceptance',
-			'test' => 'install/InstallWeblinksCest.php/installWeblinks',
-			'server' => 'php'
-		])
-	{
-		$initialSuite = fopen("acceptance.suite.container.yml", "r") or die("Unable to open file!");
-		$txt = fread($initialSuite, filesize("acceptance.suite.container.yml"));
-		fclose($initialSuite);
-
-		$finalSuite = fopen("acceptance.suite.yml", "w") or die("Unable to open file!");
-		$txt = str_replace("###", $opts['server'], $txt);
-		fwrite($finalSuite, $txt);
-		fclose($finalSuite);
-
-		$this->runCodeceptionSuite(
-			$opts['suite'],
-			$opts['test'],
-			$opts['debug'],
-			$opts['env']
-		);
-	}
-
 	/**
 	 * Executes the extension packager for this extension
 	 *
