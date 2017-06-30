@@ -1,0 +1,25 @@
+install/InstallWeblinksCest.php:installWeblinks:
+  administrator/AdministratorCategoriesCest.php:administratorCreateCategoryWithoutTitleFails:
+  administrator/AdministratorCategoriesCest.php:administratorCreateCategory:
+    administrator/AdministratorCategoriesCest.php:administratorPublishCategory:
+      administrator/AdministratorCategoriesCest.php:administratorUnpublishCategory:
+        administrator/AdministratorCategoriesCest.php:administratorArchiveCategory:
+          administrator/AdministratorCategoriesCest.php:administratorTrashCategory:
+            administrator/AdministratorCategoriesCest.php:administratorDeleteCategory:
+  administrator/AdministratorCategoriesCest.php:administratorVerifyAvailableTabs:
+  administrator/AdministratorSmartSearchCest.php:administratorEnableContentPlugin:
+  administrator/AdministratorSmartSearchCest.php:administratorEnableSmartsearchWeblinksPlugin:
+  administrator/AdministratorSmartSearchCest.php:administratorPurgeIndex:
+  administrator/AdministratorSmartSearchCest.php:administratorCreateWeblink:
+  administrator/AdministratorSmartSearchCest.php:administratorRunTheIndexer:
+  administrator/AdministratorSmartSearchCest.php:administratorDisableContentPlugin:
+  administrator/AdministratorSmartSearchCest.php:administratorDisableSmartsearchWeblinksPlugin:
+  administrator/AdministratorSmartSearchCest.php:cleanUp:
+  administrator/AdministratorWeblinksCest.php:administratorVerifyAvailableTabs:
+  administrator/AdministratorWeblinksCest.php:administratorCreateWeblink:
+    administrator/AdministratorWeblinksCest.php:administratorTrashWeblink:
+    administrator/AdministratorWeblinksCest.php:administratorDeleteWeblink:
+    administrator/AdministratorWeblinksCest.php:administratorCreateWeblinkWithoutTitleFails:
+  frontend/FrontendWeblinksCest.php:createWeblinkAndConfirmFrontend:
+  frontend/FrontendWeblinksCest.php:hitsAreNotIncrementedIfCountClicksIsOff:
+  frontend/FrontendWeblinksCest.php:hitsAreIncrementedIfCountClicksIsOn:
