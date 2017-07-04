@@ -9,8 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Joomla\\Testing\\Robo\\" : "../../joomla-testing-robo/src/",
-            "Joomla\\Testing\\" : "../../joomla-testing/src/"
+            "Joomla\\Testing\\Robo\\" : "../../joomla-testing-robo/src/"
         }
     },
     "require"    : {
@@ -22,6 +21,7 @@
         "fzaninotto/faker"                           : "^1.6",
         "Behat/Gherkin"                              : "^4.4.1",
         "joomla-projects/jorobo"                     : "dev-container-test",
+        "joomla-projects/joomla-testing"             : "dev-container-test",
         "joomla-projects/joomla-browser"             : "dev-container-test"
     },
     "minimum-stability"                              : "dev",
