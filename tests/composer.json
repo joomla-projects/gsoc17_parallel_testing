@@ -7,11 +7,6 @@
             "php": "5.5.33"
         }
     },
-    "autoload": {
-        "psr-4": {
-            "Joomla\\Testing\\Robo\\" : "../../joomla-testing-robo/src/"
-        }
-    },
     "require"    : {
         "php": ">=5.3.10"
     },
@@ -22,6 +17,7 @@
         "Behat/Gherkin"                              : "^4.4.1",
         "joomla-projects/jorobo"                     : "dev-container-test",
         "joomla-projects/joomla-testing"             : "dev-container-test",
+        "joomla-projects/joomla-testing-robo"        : "dev-container-test",
         "joomla-projects/joomla-browser"             : "dev-container-test"
     },
     "minimum-stability"                              : "dev",
