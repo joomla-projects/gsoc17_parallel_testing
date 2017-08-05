@@ -1,10 +1,10 @@
 actor: Tester
 paths:
-    tests: .
-    log: ./_output_###
-    data: ./_data
-    helpers: ./_support
-    envs: ./_envs
+    tests: ../
+    log: ../_output/###
+    data: ../_data
+    helpers: ../_support
+    envs: ../_envs
 settings:
     bootstrap: _bootstrap.php
     colors: true
