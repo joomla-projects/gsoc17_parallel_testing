@@ -26,7 +26,11 @@ class InstallWeblinksCest
 		$I->disableStatistics();
 		$I->setErrorReportingToDevelopment();
 		$I->comment('get Weblinks repository folder from acceptance.suite.yml (see _support/AcceptanceHelper.php)');
-		$I->installExtensionFromFileUpload('pkg-weblinks-current.zip', 'Package');
+
+		// URL where the package file to install is located (mostly the same as joomla-cms)
+		$url = $I->getConfiguration('url');
+		$I->installExtensionFromUrl($url . "/pkg-weblinks-current.zip");
+
 		$I->doAdministratorLogout();
 	}
 }
